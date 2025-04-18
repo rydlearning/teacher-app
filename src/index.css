@@ -1,0 +1,35 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* @font-face {
+    font-family: "AvertaStd";
+    src: local("AvertaStd"),
+      url(./assets/fonts/AvertaStd-Regular/AvertaStd-Regular.ttf)
+        format("ttf"); */
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+  /* } */
+
+@import url(https://db.onlinewebfonts.com/c/19b8f54eb1f074fb01efb1c4f02e9623?family=AvertaStd-Regular);
+@import url(https://db.onlinewebfonts.com/c/aef2da2daa6e15be44ff1a2706cc61a1?family=AvertaStd-Semibold);
+@import url(https://db.onlinewebfonts.com/c/b5d2107c7c6e775b13169eb51d8970c1?family=AvertaStd-Light);
+
+body,
+html {
+  font-family: "AvertaStd-Regular";
+  margin: 0;
+  padding: 0;
+  /* color: rgba(45, 18, 38, 0.38); */
+}
+
+.bg-dark-primary {
+  background: rgba(114, 45, 96, 0.38);
+}
+.nav-style:hover {
+  background: rgba(114, 45, 96, 0.38);
+}
+
+.scrollbar {
+    scrollbar-width: 0px !important;
+}
